@@ -1,0 +1,7 @@
+{
+  "name": "R3F Studio",
+  "description": "A comprehensive 3D scene editor and learning platform for React Three Fiber, featuring a dashboard, code editor, visual designer, and performance analytics.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
