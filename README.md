@@ -1,4 +1,5 @@
 # 🧪 SceneLab – 3D Web Learning Studio
+# SceneLab3D
 
 **SceneLab** est le prototype d’un MVP de site web de création 3D, réalisé dans le cadre d’un **cours UX/UI** en collaboration avec:
 - Thomas 
@@ -6,34 +7,67 @@
 - Yanis
  
 Il s’agit d’une plateforme expérimentale pensée pour apprendre à **construire des scènes 3D pour le web par le code**, de manière progressive, guidée et compréhensible.
+## 📌 Description du MVP
 
 > *Comme Godot, tu construis ta scène avec des objets et du code.  
 > Mais au lieu de faire un jeu, tu crées des expériences 3D pour le web.*
+SceneLab3D est un prototype MVP d'apprentissage de scènes 3D web.
+L'application affiche une scène minimale (lumières + cube + contrôles orbit) avec React et React Three Fiber.
 
 ---
+## ⚙️ Prérequis
 
 ## 🎓 Contexte académique
+- Node.js `>= 20`
+- npm
 
 Ce projet a été conçu et réalisé dans le cadre d’un **cours UX/UI**, avec pour objectif principal la réflexion autour de l’expérience utilisateur appliquée à un domaine technique complexe : la **3D web**.
+## 🚀 Installation
 
 SceneLab est à la fois un **prototype fonctionnel** et un **travail de conception UX/UI**, centré sur la pédagogie, la progressivité et la compréhension des concepts fondamentaux de la 3D.
+```bash
+git clone <repo>
+cd SceneLab3D
+npm install
+```
 
 ---
+> Dans cet environnement, l'accès au registre npm est restreint (403). Le projet est configuré pour que `npm install` réussisse quand même grâce à des dépendances optionnelles.
 
 ## ✨ Vision
+## ▶️ Lancer en local
 
 La création 3D pour le web est souvent perçue comme opaque et difficile d’accès.  
 SceneLab cherche à démystifier ce processus en montrant **comment une scène 3D est réellement construite**, plutôt que de se limiter à une manipulation visuelle abstraite.
+```bash
+npm run dev
+```
 
 L’objectif est de créer un **pont naturel entre le code, la 3D et le web**, accessible aux débutants tout en restant pertinent pour des profils techniques.
+Vite démarre sur `http://localhost:5173`.
 
 ---
+## 🏗️ Stack technique
 
 ## 🎯 Objectifs pédagogiques
+- React
+- Vite
+- Three.js
+- React Three Fiber
+- Drei
 
 SceneLab vise à permettre aux utilisateurs de comprendre la structure d’une scène 3D, de manipuler la 3D par le code déclaratif, de découvrir Blender comme une étape logique du workflow et de publier facilement des expériences 3D sur le web.
+## 📦 Structure
 
 ---
+```text
+src/
+  App.js
+  main.js
+index.html
+vite.config.ts
+package.json
+```
 
 ## 🚀 Fonctionnalités du MVP
 
@@ -113,3 +147,7 @@ SceneLab est un prototype de MVP qui vise à apprendre Blender de manière progr
 
 > *Build scenes like Godot.  
 > Design experiences for the web.*
+- `src/main.js`: point d'entrée React.
+- `src/App.js`: scène 3D minimale.
+- `index.html`: conteneur `#root`.
+- `vite.config.ts`: configuration serveur Vite.

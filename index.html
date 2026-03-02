@@ -1,8 +1,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="dark">
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>R3F Studio</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -28,6 +31,7 @@
         }
       }
     </script>
+    <title>SceneLab3D</title>
     <style>
       .no-scrollbar::-webkit-scrollbar { display: none; }
       .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
@@ -36,6 +40,17 @@
       .wireframe-x {
         background: linear-gradient(to top left, transparent 49.5%, #374151 49.5%, #374151 50.5%, transparent 50.5%),
                     linear-gradient(to top right, transparent 49.5%, #374151 49.5%, #374151 50.5%, transparent 50.5%);
+      html,
+      body,
+      #root {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        overflow: hidden;
+        font-family: Inter, system-ui, -apple-system, sans-serif;
       }
     </style>
   <script type="importmap">
@@ -50,7 +65,11 @@
 <link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+  </head>
+  <body>
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
