@@ -42,9 +42,9 @@ fonction, fichier de script ou programme exécutable.
 Cela signifie que Node.js (et donc npm) n'est PAS installé
 ou qu'il n'est pas ajouté au PATH système.
 
-# ------------------------------------------------------------
+------------------------------------------------------------
 # ✅ Solution : Installer Node.js
-# ------------------------------------------------------------
+------------------------------------------------------------
 
 # 1️⃣ Télécharger Node.js (version LTS recommandée)
 👉 https://nodejs.org
@@ -64,17 +64,17 @@ Si tout est correctement installé, vous devriez voir :
 vXX.X.X
 X.X.X
 
-# ------------------------------------------------------------
+------------------------------------------------------------
 # 🚀 Relancer le projet
-# ------------------------------------------------------------
+------------------------------------------------------------
 
 cd SceneLab3D
 npm install
 npm run dev
 
-# ------------------------------------------------------------
+------------------------------------------------------------
 # 🔧 Si npm n'est toujours pas reconnu
-# ------------------------------------------------------------
+------------------------------------------------------------
 
 Vérifier que le dossier Node est bien dans le PATH Windows :
 
@@ -92,16 +92,16 @@ Si le chemin n'apparaît pas :
    C:\Program Files\nodejs\
 4. Redémarrer le terminal
 
-# ------------------------------------------------------------
+------------------------------------------------------------
 # ✅ Après correction
-# ------------------------------------------------------------
+------------------------------------------------------------
 
 node -v && npm -v
 npm install
 npm run dev
 
 L'application devrait être accessible sur :
-# http://localhost:5173
+http://localhost:5173
 
 ---
 ## 🏗️ Stack technique
