@@ -34,24 +34,24 @@ npm install
 
 # 🛠️ Problème potentiel : "npm n'est pas reconnu"
 
-# Si vous voyez l’erreur suivante dans PowerShell ou CMD :
-#
-# npm : Le terme « npm » n'est pas reconnu comme nom d'applet de commande,
-# fonction, fichier de script ou programme exécutable.
-#
-# Cela signifie que Node.js (et donc npm) n'est PAS installé
-# ou qu'il n'est pas ajouté au PATH système.
+Si vous voyez l’erreur suivante dans PowerShell ou CMD :
+
+npm : Le terme « npm » n'est pas reconnu comme nom d'applet de commande,
+fonction, fichier de script ou programme exécutable.
+
+Cela signifie que Node.js (et donc npm) n'est PAS installé
+ou qu'il n'est pas ajouté au PATH système.
 
 # ------------------------------------------------------------
 # ✅ Solution : Installer Node.js
 # ------------------------------------------------------------
 
 # 1️⃣ Télécharger Node.js (version LTS recommandée)
-# 👉 https://nodejs.org
+👉 https://nodejs.org
 
 # 2️⃣ Lancer l'installation
-# IMPORTANT : vérifier que l’option
-# "Add to PATH" est cochée pendant l'installation.
+IMPORTANT : vérifier que l’option
+"Add to PATH" est cochée pendant l'installation.
 
 # 3️⃣ Fermer puis rouvrir le terminal
 
@@ -60,9 +60,9 @@ npm install
 node -v
 npm -v
 
-# Si tout est correctement installé, vous devriez voir :
-# vXX.X.X
-# X.X.X
+Si tout est correctement installé, vous devriez voir :
+vXX.X.X
+X.X.X
 
 # ------------------------------------------------------------
 # 🚀 Relancer le projet
@@ -76,21 +76,21 @@ npm run dev
 # 🔧 Si npm n'est toujours pas reconnu
 # ------------------------------------------------------------
 
-# Vérifier que le dossier Node est bien dans le PATH Windows :
-#
-# Chemin attendu :
-# C:\Program Files\nodejs\
-#
-# Pour vérifier via PowerShell :
+Vérifier que le dossier Node est bien dans le PATH Windows :
+
+Chemin attendu :
+C:\Program Files\nodejs\
+
+Pour vérifier via PowerShell :
 
 echo $Env:Path
 
-# Si le chemin n'apparaît pas :
-# 1. Ouvrir "Modifier les variables d’environnement"
-# 2. Variables système → Path
-# 3. Ajouter :
-#    C:\Program Files\nodejs\
-# 4. Redémarrer le terminal
+Si le chemin n'apparaît pas :
+1. Ouvrir "Modifier les variables d’environnement"
+2. Variables système → Path
+3. Ajouter :
+   C:\Program Files\nodejs\
+4. Redémarrer le terminal
 
 # ------------------------------------------------------------
 # ✅ Après correction
@@ -100,7 +100,7 @@ node -v && npm -v
 npm install
 npm run dev
 
-# L'application devrait être accessible sur :
+L'application devrait être accessible sur :
 # http://localhost:5173
 
 ---
