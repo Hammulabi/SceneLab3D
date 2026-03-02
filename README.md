@@ -31,6 +31,7 @@ cd SceneLab3D
 npm install
 ```
 > Dans cet environnement, l'accès au registre npm est restreint (403). Le projet est configuré pour que `npm install` réussisse quand même grâce à des dépendances optionnelles.
+---
 
 # 🛠️ Problème potentiel : "npm n'est pas reconnu"
 
@@ -43,19 +44,19 @@ Cela signifie que Node.js (et donc npm) n'est PAS installé
 ou qu'il n'est pas ajouté au PATH système.
 
 ------------------------------------------------------------
-# ✅ Solution : Installer Node.js
+✅ Solution : Installer Node.js
 ------------------------------------------------------------
 
-# 1️⃣ Télécharger Node.js (version LTS recommandée)
+1️⃣ Télécharger Node.js (version LTS recommandée)
 👉 https://nodejs.org
 
-# 2️⃣ Lancer l'installation
+2️⃣ Lancer l'installation
 IMPORTANT : vérifier que l’option
 "Add to PATH" est cochée pendant l'installation.
 
-# 3️⃣ Fermer puis rouvrir le terminal
+3️⃣ Fermer puis rouvrir le terminal
 
-# 4️⃣ Vérifier l'installation :
+4️⃣ Vérifier l'installation :
 
 node -v
 npm -v
@@ -65,7 +66,7 @@ vXX.X.X
 X.X.X
 
 ------------------------------------------------------------
-# 🚀 Relancer le projet
+🚀 Relancer le projet
 ------------------------------------------------------------
 
 cd SceneLab3D
@@ -73,7 +74,7 @@ npm install
 npm run dev
 
 ------------------------------------------------------------
-# 🔧 Si npm n'est toujours pas reconnu
+🔧 Si npm n'est toujours pas reconnu
 ------------------------------------------------------------
 
 Vérifier que le dossier Node est bien dans le PATH Windows :
@@ -93,7 +94,7 @@ Si le chemin n'apparaît pas :
 4. Redémarrer le terminal
 
 ------------------------------------------------------------
-# ✅ Après correction
+✅ Après correction
 ------------------------------------------------------------
 
 node -v && npm -v
