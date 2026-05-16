@@ -1,4 +1,4 @@
-# 🧪 SceneLab – 3D Web Learning Studio
+#  SceneLab – 3D Web Learning Studio
 # SceneLab3D
 
 **SceneLab** est le prototype d’un MVP de site web de création 3D, réalisé dans le cadre d’un **cours UX/UI** en collaboration avec:
@@ -7,7 +7,7 @@
 - Yanis
  
 Il s’agit d’une plateforme expérimentale pensée pour apprendre à **construire des scènes 3D pour le web par le code**, de manière progressive, guidée et compréhensible.
-## 📌 Description du MVP
+##  Description du MVP
 
 > *Comme Godot, tu construis ta scène avec des objets et du code.  
 > Mais au lieu de faire un jeu, tu crées des expériences 3D pour le web.*
@@ -15,14 +15,14 @@ SceneLab3D est un prototype MVP d'apprentissage de scènes 3D web.
 L'application affiche une scène minimale (lumières + cube + contrôles orbit) avec React et React Three Fiber.
 
 ---
-## ⚙️ Prérequis
+## Prérequis
 
-## 🎓 Contexte académique
+## Contexte académique
 - Node.js `>= 20`
 - npm
 
 Ce projet a été conçu et réalisé dans le cadre d’un **cours UX/UI**, avec pour objectif principal la réflexion autour de l’expérience utilisateur appliquée à un domaine technique complexe : la **3D web**.
-## 🚀 Installation
+## Installation
 
 SceneLab est à la fois un **prototype fonctionnel** et un **travail de conception UX/UI**, centré sur la pédagogie, la progressivité et la compréhension des concepts fondamentaux de la 3D.
 ```bash
@@ -33,7 +33,7 @@ npm install
 > Dans cet environnement, l'accès au registre npm est restreint (403). Le projet est configuré pour que `npm install` réussisse quand même grâce à des dépendances optionnelles.
 ---
 
-# 🛠️ Problème potentiel : "npm n'est pas reconnu"
+#  Problème potentiel : "npm n'est pas reconnu"
 
 Si vous voyez l’erreur suivante dans PowerShell ou CMD :
 
@@ -44,19 +44,19 @@ Cela signifie que Node.js (et donc npm) n'est PAS installé
 ou qu'il n'est pas ajouté au PATH système.
 
 ------------------------------------------------------------
-✅ Solution : Installer Node.js
+Solution : Installer Node.js
 ------------------------------------------------------------
 
-1️⃣ Télécharger Node.js (version LTS recommandée)
-👉 https://nodejs.org
+ Télécharger Node.js (version LTS recommandée)
+ https://nodejs.org
 
-2️⃣ Lancer l'installation
+ Lancer l'installation
 IMPORTANT : vérifier que l’option
 "Add to PATH" est cochée pendant l'installation.
 
-3️⃣ Fermer puis rouvrir le terminal
+ Fermer puis rouvrir le terminal
 
-4️⃣ Vérifier l'installation :
+ Vérifier l'installation :
 
 node -v
 npm -v
@@ -66,7 +66,7 @@ vXX.X.X
 X.X.X
 
 ------------------------------------------------------------
-🚀 Relancer le projet
+Relancer le projet
 ------------------------------------------------------------
 
 cd SceneLab3D
@@ -74,7 +74,7 @@ npm install
 npm run dev
 
 ------------------------------------------------------------
-🔧 Si npm n'est toujours pas reconnu
+ Si npm n'est toujours pas reconnu
 ------------------------------------------------------------
 
 Vérifier que le dossier Node est bien dans le PATH Windows :
@@ -94,7 +94,7 @@ Si le chemin n'apparaît pas :
 4. Redémarrer le terminal
 
 ------------------------------------------------------------
-✅ Après correction
+ Après correction
 ------------------------------------------------------------
 
 node -v && npm -v
@@ -105,9 +105,9 @@ L'application devrait être accessible sur :
 http://localhost:5173
 
 ---
-## 🏗️ Stack technique
+##  Stack technique
 
-## 🎯 Objectifs pédagogiques
+## Objectifs pédagogiques
 - React
 - Vite
 - Three.js
@@ -115,7 +115,8 @@ http://localhost:5173
 - Drei
 
 SceneLab vise à permettre aux utilisateurs de comprendre la structure d’une scène 3D, de manipuler la 3D par le code déclaratif, de découvrir Blender comme une étape logique du workflow et de publier facilement des expériences 3D sur le web.
-## 📦 Structure
+
+## Structure
 
 ---
 ```text
@@ -127,7 +128,7 @@ vite.config.ts
 package.json
 ```
 
-## 🚀 Fonctionnalités du MVP
+## Fonctionnalités du MVP
 
 ### Création 3D orientée code (inspiration Godot)
 
@@ -183,7 +184,7 @@ Les projets peuvent être partagés par lien, forkés et commentés. Des snapsho
 
 ---
 
-## 🧱 Stack technique (prévisionnelle)
+## Stack technique (prévisionnelle)
 
 - React  
 - React Three Fiber  
@@ -193,13 +194,13 @@ Les projets peuvent être partagés par lien, forkés et commentés. Des snapsho
 
 ---
 
-## 🧠 Philosophie du projet
+## Philosophie du projet
 
 SceneLab repose sur une idée simple : apprendre la 3D web en comprenant ce que l’on fait, plutôt qu’en utilisant des outils opaques. La plateforme privilégie la lisibilité, la pédagogie et la cohérence entre le visuel et le code afin de poser des bases solides et transférables vers des outils professionnels.
 
 ---
 
-## 📌 En résumé
+## En résumé
 
 SceneLab est un prototype de MVP qui vise à apprendre Blender de manière progressive, à comprendre la structure d’une scène 3D, à manipuler la 3D par le code et à publier directement des expériences 3D sur le web.
 
